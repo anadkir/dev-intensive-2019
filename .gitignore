@@ -1,12 +1,15 @@
+*.ap_
 # Built application files
+*.apk
 build/
+# Local configuration file (sdk path, etc)
+local.properties
+*.aab
 
 # Files for the ART/Dalvik VM
 *.dex
-
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
-
 # Gradle files
 .gradle/
 
@@ -16,15 +19,22 @@ build/
 # User-specific configurations
 *.iml
 
-# Local configuration file (sdk path, etc)
-local.properties
-
 # Log Files
 *.log
+.DS_Store
+# OS-specific files
+.DS_Store?
+._*
+.Trashes
+.Spotlight-V100
+ehthumbs.db
+Thumbs.db
 
 # Android Studio Navigation editor temp files
 .navigation/
 
+# Version control
+vcs.xml
 # Android Studio captures folder
 captures/
 
@@ -36,5 +46,9 @@ captures/
 # Google Services (e.g. APIs or Firebase)
 google-services.json
 
-# Version control
-vcs.xml
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+lint/reports/
